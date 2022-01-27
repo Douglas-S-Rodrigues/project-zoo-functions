@@ -31,7 +31,6 @@ function countEntrants(entrants) {
 }
 
 function calculateEntry(entrants) {
-
   const total = countEntrants(entrants);
   if (total !== 0) {
     return (total.child * prices.child) + (total.adult * prices.adult)
